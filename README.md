@@ -61,8 +61,18 @@ limiting the risk.
 
 Here is an example of how to embed images from your sub-folder:
 
-### Visual 1
-![graph1](./images/viz1.png)
+### Visual 
+![graph1](./images/MaxbygenGtc.png)
+![graph2](./images/Maxbygenprof.png)
+![graph3](./images/MedbygenGtc.png)
+![graph4](./images/Medbygenprof.png)
+![graph5](./images/MinbygenGtc.png)
+![graph6](./images/Prof1.png)
+![graph7](./images/Prof2.png)
+![graph8](./images/Prof3.png)
+![graph9](./images/Prof4.png)
+![graph10](./images/Prof5.png)
+![graph11](./images/runtimebox.png)
 
 ## Conclusions
 
@@ -87,9 +97,9 @@ I have confidence in my initial suggestion, but would love to explore further in
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./dsc-phase1-project-template.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
+Please review our full analysis in [our Jupyter Notebook](./dsc-phase1-project.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
 
-For any additional questions, please contact **name & email, name & email**
+For any additional questions, please contact **Ryan Sajac, rsajac.gmail.com**
 
 ## Repository Structure
 
@@ -97,8 +107,8 @@ For any additional questions, please contact **name & email, name & email**
 
 ```
 ├── README.md                           <- The top-level README for reviewers of this project
-├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
+├── dsc-phase1-project.ipynb            <- Narrative documentation of analysis in Jupyter notebook
 ├── DS_Project_Presentation.pdf         <- PDF version of project presentation
-├── data                                <- Both sourced externally and generated from code
+├── zippedData                          <- Both sourced externally and generated from code
 └── images                              <- Both sourced externally and generated from code
 ```
