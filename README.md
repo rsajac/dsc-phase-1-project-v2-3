@@ -10,18 +10,21 @@ Using the genre, runtime, budgets, and gross earnings, we recommend that the bes
 
 ## Business Problem
 
-Microsoft must be most interested in two things, how to get a large return on investment, and how to limit risk in accomplishing that task.
+Microsoft must be most interested in two things, how to get a large return on investment, and how to limit risk in accomplishing that task. 
 
 For these two pain points, the questions we need to answer in our data analysis are:
+1. What type of genres are most likely to be most profitable? 
+2. What runtimes are most likely to produce higher profit?
+3. Which genre limits the risk on return of investment? 
 
-What type of genres are most likely to be successful in earnings (gross - cost?)
-What runtimes are most likely to produce better gross earnings?
-Is there a genre that can maximize the gross to cost ratio?
-From a business perspective, these questions are important to answer because Microsoft needs to establish itself as a key player in the market early on. It can either do that by taking a big risk and hitting it out of the park (question 3), or by playing it safe and producing a movie that is likely to succeed, and continuing to build safely by producing 'safe' movies and diversifying by targeting those that are 'riskier' in terms of return on investment.
+From a business perspective, these questions are important to answer because Microsoft needs to establish itself as a key player in the market early on. It can either do that by taking a big risk and hitting it out of the park (question 3), or by playing it safe and producing a movie that is likely to succeed, and continuing to build safely by producing 'safe' movies and diversifying by targeting those that are 'riskier' in terms of return on investment. 
 
 
+## Data Understanding
 
-## Data
+#### Target Variable - Profit
+
+Microsoft's goal is to make money in this venture. 
 
 Data is from Rotten Tomatoes, and IMDB. These sites contain information about gross, budget, runtimes, and genres of movies. We need to correlate this information to determine what are recommendations will be for Microsoft. 
 
@@ -30,9 +33,19 @@ I included the following files:
 * bom_movie_gross_csv_gz - has the domestic and foreign gross, and title
 * tn.movie_budgets.csv.gz - has the budget, and title
 
-I can join these three tables to get relationships among the data to find answers to our questions. 
+I can join these three tables to get relationships among the data to find answers to our questions. Once joined, the dataframe has 1001 movie entries with 17 columns. The most relevant columns for our analysis were: 
+* Production Budget
+* Runtime Minutes
+* Worldwide Gross
+
+I created two further columns:
+* Profit
+* Gross-to-cost-Ratio
+
+While profit is our target variable, Gross-to-cost-ratio helped to indicate the risk of a certain genre. 
 
 With more time we could have narrowed down a short list of directors based on titles that have done well for Microsoft to choose from. 
+***
 
 ## Methods
 
@@ -59,7 +72,6 @@ My work solves the business problem of which movie type Microsoft should
 invest in creating in order to make a significant amount of money while
 limiting the risk. 
 
-Here is an example of how to embed images from your sub-folder:
 
 ### Visual 
 ![graph1](./images/MaxbygenGtc.png)
@@ -73,6 +85,7 @@ Here is an example of how to embed images from your sub-folder:
 ![graph9](./images/Prof4.png)
 ![graph10](./images/Prof5.png)
 ![graph11](./images/runtimebox.png)
+![graph11](./images/runtimebox2.png)
 
 ## Conclusions
 
