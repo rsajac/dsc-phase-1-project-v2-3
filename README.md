@@ -74,18 +74,18 @@ limiting the risk.
 
 
 ### Visual 
-![graph1](./images/MaxbygenGtc.png)
-![graph2](./images/Maxbygenprof.png)
-![graph3](./images/MedbygenGtc.png)
-![graph4](./images/Medbygenprof.png)
-![graph5](./images/MinbygenGtc.png)
-![graph6](./images/Prof1.png)
-![graph7](./images/Prof2.png)
-![graph8](./images/Prof3.png)
-![graph9](./images/Prof4.png)
-![graph10](./images/Prof5.png)
-![graph11](./images/runtimebox.png)
-![graph11](./images/runtimebox2.png)
+![graph1](./Images/MaxbygenGtc.png)
+![graph2](./Images/Maxbygenprof.png)
+![graph3](./Images/MedbygenGtc.png)
+![graph4](./Images/Medbygenprof.png)
+![graph5](./Images/MinbygenGtc.png)
+![graph6](./Images/Prof1.png)
+![graph7](./Images/Prof2.png)
+![graph8](./Images/Prof3.png)
+![graph9](./Images/Prof4.png)
+![graph10](./Images/Prof5.png)
+![graph11](./Images/runtimebox.png)
+![graph11](./Images/runtimebox2.png)
 
 ## Conclusions
 
