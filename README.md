@@ -74,11 +74,11 @@ limiting the risk.
 
 
 ### Visual 
-![graph1](./Images/MaxbygenGtc.png)
+![graph1](./Images/MaxbygenGtC.png)
 ![graph2](./Images/Maxbygenprof.png)
-![graph3](./Images/MedbygenGtc.png)
+![graph3](./Images/MedbygenGtC.png)
 ![graph4](./Images/Medbygenprof.png)
-![graph5](./Images/MinbygenGtc.png)
+![graph5](./Images/MinbygenGtC.png)
 ![graph6](./Images/Prof1.png)
 ![graph7](./Images/Prof2.png)
 ![graph8](./Images/Prof3.png)
